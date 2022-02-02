@@ -13,6 +13,8 @@
 		D721790127A4BECD00D20EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72178FF27A4BECD00D20EBA /* Main.storyboard */; };
 		D721790327A4BECD00D20EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D721790227A4BECD00D20EBA /* Assets.xcassets */; };
 		D721790627A4BECD00D20EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D721790427A4BECD00D20EBA /* LaunchScreen.storyboard */; };
+		D7B8155727A59134005335ED /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8155627A59134005335ED /* CadastroViewController.swift */; };
+		D7B8155927A59258005335ED /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8155827A59258005335ED /* UserDefaultsHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D721790227A4BECD00D20EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D721790527A4BECD00D20EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D721790727A4BECD00D20EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B8155627A59134005335ED /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		D7B8155827A59258005335ED /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D721790227A4BECD00D20EBA /* Assets.xcassets */,
 				D721790427A4BECD00D20EBA /* LaunchScreen.storyboard */,
 				D721790727A4BECD00D20EBA /* Info.plist */,
+				D7B8155627A59134005335ED /* CadastroViewController.swift */,
+				D7B8155827A59258005335ED /* UserDefaultsHelper.swift */,
 			);
 			path = ListaTaferasApp;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B8155927A59258005335ED /* UserDefaultsHelper.swift in Sources */,
 				D72178FE27A4BECD00D20EBA /* ViewController.swift in Sources */,
 				D72178FA27A4BECD00D20EBA /* AppDelegate.swift in Sources */,
 				D72178FC27A4BECD00D20EBA /* SceneDelegate.swift in Sources */,
+				D7B8155727A59134005335ED /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
